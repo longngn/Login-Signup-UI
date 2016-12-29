@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		491E535C1E103AC2003AE6FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491E535B1E103AC2003AE6FA /* AppDelegate.swift */; };
+		491E535E1E103AC2003AE6FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491E535D1E103AC2003AE6FA /* ViewController.swift */; };
+		491E53611E103AC2003AE6FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491E535F1E103AC2003AE6FA /* Main.storyboard */; };
+		491E53631E103AC4003AE6FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 491E53621E103AC4003AE6FA /* Assets.xcassets */; };
+		491E53661E103AC4003AE6FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491E53641E103AC4003AE6FA /* LaunchScreen.storyboard */; };
+		491E53711E103AC4003AE6FA /* LoginSignupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491E53701E103AC4003AE6FA /* LoginSignupUITests.swift */; };
+		499B92FF1E14DC1100403A1B /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499B92FE1E14DC1100403A1B /* CustomTextField.swift */; };
+		49F5983C1E1428CE00E7D093 /* Comfortaa-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49F598391E1428CE00E7D093 /* Comfortaa-Bold.ttf */; };
+		49F5983D1E1428CE00E7D093 /* Comfortaa-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49F5983A1E1428CE00E7D093 /* Comfortaa-Light.ttf */; };
+		49F5983E1E1428CE00E7D093 /* Comfortaa-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49F5983B1E1428CE00E7D093 /* Comfortaa-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		491E536D1E103AC4003AE6FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 491E53501E103AC2003AE6FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 491E53571E103AC2003AE6FA;
+			remoteInfo = LoginSignupUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		491E53581E103AC2003AE6FA /* LoginSignupUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginSignupUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		491E535B1E103AC2003AE6FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		491E535D1E103AC2003AE6FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		491E53601E103AC2003AE6FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		491E53621E103AC4003AE6FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		491E53651E103AC4003AE6FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		491E53671E103AC4003AE6FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		491E536C1E103AC4003AE6FA /* LoginSignupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginSignupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		491E53701E103AC4003AE6FA /* LoginSignupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignupUITests.swift; sourceTree = "<group>"; };
+		491E53721E103AC4003AE6FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		499B92FE1E14DC1100403A1B /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		49F598391E1428CE00E7D093 /* Comfortaa-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Comfortaa-Bold.ttf"; path = "Resources/Comfortaa-Bold.ttf"; sourceTree = "<group>"; };
+		49F5983A1E1428CE00E7D093 /* Comfortaa-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Comfortaa-Light.ttf"; path = "Resources/Comfortaa-Light.ttf"; sourceTree = "<group>"; };
+		49F5983B1E1428CE00E7D093 /* Comfortaa-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Comfortaa-Regular.ttf"; path = "Resources/Comfortaa-Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		491E53551E103AC2003AE6FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		491E53691E103AC4003AE6FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		491E534F1E103AC2003AE6FA = {
+			isa = PBXGroup;
+			children = (
+				49F598381E1428BD00E7D093 /* Resources */,
+				491E535A1E103AC2003AE6FA /* LoginSignupUI */,
+				491E536F1E103AC4003AE6FA /* LoginSignupUITests */,
+				491E53591E103AC2003AE6FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		491E53591E103AC2003AE6FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				491E53581E103AC2003AE6FA /* LoginSignupUI.app */,
+				491E536C1E103AC4003AE6FA /* LoginSignupUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		491E535A1E103AC2003AE6FA /* LoginSignupUI */ = {
+			isa = PBXGroup;
+			children = (
+				491E535B1E103AC2003AE6FA /* AppDelegate.swift */,
+				491E535D1E103AC2003AE6FA /* ViewController.swift */,
+				491E535F1E103AC2003AE6FA /* Main.storyboard */,
+				499B92FE1E14DC1100403A1B /* CustomTextField.swift */,
+				491E53621E103AC4003AE6FA /* Assets.xcassets */,
+				491E53641E103AC4003AE6FA /* LaunchScreen.storyboard */,
+				491E53671E103AC4003AE6FA /* Info.plist */,
+			);
+			path = LoginSignupUI;
+			sourceTree = "<group>";
+		};
+		491E536F1E103AC4003AE6FA /* LoginSignupUITests */ = {
+			isa = PBXGroup;
+			children = (
+				491E53701E103AC4003AE6FA /* LoginSignupUITests.swift */,
+				491E53721E103AC4003AE6FA /* Info.plist */,
+			);
+			path = LoginSignupUITests;
+			sourceTree = "<group>";
+		};
+		49F598381E1428BD00E7D093 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				49F598391E1428CE00E7D093 /* Comfortaa-Bold.ttf */,
+				49F5983A1E1428CE00E7D093 /* Comfortaa-Light.ttf */,
+				49F5983B1E1428CE00E7D093 /* Comfortaa-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		491E53571E103AC2003AE6FA /* LoginSignupUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 491E53751E103AC4003AE6FA /* Build configuration list for PBXNativeTarget "LoginSignupUI" */;
+			buildPhases = (
+				491E53541E103AC2003AE6FA /* Sources */,
+				491E53551E103AC2003AE6FA /* Frameworks */,
+				491E53561E103AC2003AE6FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginSignupUI;
+			productName = LoginSignupUI;
+			productReference = 491E53581E103AC2003AE6FA /* LoginSignupUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		491E536B1E103AC4003AE6FA /* LoginSignupUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 491E53781E103AC4003AE6FA /* Build configuration list for PBXNativeTarget "LoginSignupUITests" */;
+			buildPhases = (
+				491E53681E103AC4003AE6FA /* Sources */,
+				491E53691E103AC4003AE6FA /* Frameworks */,
+				491E536A1E103AC4003AE6FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				491E536E1E103AC4003AE6FA /* PBXTargetDependency */,
+			);
+			name = LoginSignupUITests;
+			productName = LoginSignupUITests;
+			productReference = 491E536C1E103AC4003AE6FA /* LoginSignupUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		491E53501E103AC2003AE6FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Nguyen Le Vu Long";
+				TargetAttributes = {
+					491E53571E103AC2003AE6FA = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 3FM7JRXRKW;
+						ProvisioningStyle = Automatic;
+					};
+					491E536B1E103AC4003AE6FA = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 3FM7JRXRKW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 491E53571E103AC2003AE6FA;
+					};
+				};
+			};
+			buildConfigurationList = 491E53531E103AC2003AE6FA /* Build configuration list for PBXProject "LoginSignupUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 491E534F1E103AC2003AE6FA;
+			productRefGroup = 491E53591E103AC2003AE6FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				491E53571E103AC2003AE6FA /* LoginSignupUI */,
+				491E536B1E103AC4003AE6FA /* LoginSignupUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		491E53561E103AC2003AE6FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F5983C1E1428CE00E7D093 /* Comfortaa-Bold.ttf in Resources */,
+				491E53661E103AC4003AE6FA /* LaunchScreen.storyboard in Resources */,
+				491E53631E103AC4003AE6FA /* Assets.xcassets in Resources */,
+				491E53611E103AC2003AE6FA /* Main.storyboard in Resources */,
+				49F5983E1E1428CE00E7D093 /* Comfortaa-Regular.ttf in Resources */,
+				49F5983D1E1428CE00E7D093 /* Comfortaa-Light.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		491E536A1E103AC4003AE6FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		491E53541E103AC2003AE6FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491E535E1E103AC2003AE6FA /* ViewController.swift in Sources */,
+				491E535C1E103AC2003AE6FA /* AppDelegate.swift in Sources */,
+				499B92FF1E14DC1100403A1B /* CustomTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		491E53681E103AC4003AE6FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491E53711E103AC4003AE6FA /* LoginSignupUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		491E536E1E103AC4003AE6FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 491E53571E103AC2003AE6FA /* LoginSignupUI */;
+			targetProxy = 491E536D1E103AC4003AE6FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		491E535F1E103AC2003AE6FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				491E53601E103AC2003AE6FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		491E53641E103AC4003AE6FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				491E53651E103AC4003AE6FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		491E53731E103AC4003AE6FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		491E53741E103AC4003AE6FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		491E53761E103AC4003AE6FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3FM7JRXRKW;
+				INFOPLIST_FILE = LoginSignupUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NLVL.LoginSignupUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		491E53771E103AC4003AE6FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3FM7JRXRKW;
+				INFOPLIST_FILE = LoginSignupUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NLVL.LoginSignupUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		491E53791E103AC4003AE6FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3FM7JRXRKW;
+				INFOPLIST_FILE = LoginSignupUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NLVL.LoginSignupUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginSignupUI.app/LoginSignupUI";
+			};
+			name = Debug;
+		};
+		491E537A1E103AC4003AE6FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3FM7JRXRKW;
+				INFOPLIST_FILE = LoginSignupUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NLVL.LoginSignupUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginSignupUI.app/LoginSignupUI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		491E53531E103AC2003AE6FA /* Build configuration list for PBXProject "LoginSignupUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				491E53731E103AC4003AE6FA /* Debug */,
+				491E53741E103AC4003AE6FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		491E53751E103AC4003AE6FA /* Build configuration list for PBXNativeTarget "LoginSignupUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				491E53761E103AC4003AE6FA /* Debug */,
+				491E53771E103AC4003AE6FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		491E53781E103AC4003AE6FA /* Build configuration list for PBXNativeTarget "LoginSignupUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				491E53791E103AC4003AE6FA /* Debug */,
+				491E537A1E103AC4003AE6FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 491E53501E103AC2003AE6FA /* Project object */;
+}

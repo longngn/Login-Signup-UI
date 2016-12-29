@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Comfortaa-Bold.ttf">
+            <string>Comfortaa-Bold</string>
+        </array>
+        <array key="Comfortaa-Light.ttf">
+            <string>Comfortaa-Light</string>
+        </array>
+        <array key="Comfortaa-Regular.ttf">
+            <string>Comfortaa</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LoginSignupUI" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="Bbf-UR-Gen">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2JW-bi-JxO" userLabel="LoginOrSignupView">
+                                <rect key="frame" x="0.0" y="547" width="375" height="120"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AdJ-cv-qh6" userLabel="Log in">
+                                        <rect key="frame" x="15" y="39" width="118" height="43"/>
+                                        <color key="backgroundColor" red="0.59215686270000001" green="0.40784313729999999" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="118" id="Cjc-rx-geH"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Comfortaa" family="Comfortaa" pointSize="30"/>
+                                        <state key="normal" title="Log in">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="showLoginPanelFromBelow:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qr3-S9-r3X"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ic1-Nv-4v0" userLabel="Sign up">
+                                        <rect key="frame" x="230" y="39" width="135" height="43"/>
+                                        <color key="backgroundColor" red="0.59215686270000001" green="0.40784313729999999" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="135" id="hOs-Oa-srW"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Comfortaa" family="Comfortaa" pointSize="30"/>
+                                        <state key="normal" title="Sign up">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="showSignupPanelFromBelow:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vFC-Na-z8q"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="or" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1SA-LB-vSm">
+                                        <rect key="frame" x="169.5" y="47.5" width="27.5" height="25.5"/>
+                                        <fontDescription key="fontDescription" name="Comfortaa-Light" family="Comfortaa" pointSize="25"/>
+                                        <color key="textColor" red="0.59215686270000001" green="0.40784313729999999" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="highlightedColor" red="0.59215686270000001" green="0.40784313729999999" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="AdJ-cv-qh6" firstAttribute="centerY" secondItem="2JW-bi-JxO" secondAttribute="centerY" id="1lL-4h-Bwc"/>
+                                    <constraint firstItem="AdJ-cv-qh6" firstAttribute="leading" secondItem="2JW-bi-JxO" secondAttribute="leading" constant="15" id="6YU-pb-k5J"/>
+                                    <constraint firstItem="1SA-LB-vSm" firstAttribute="centerX" secondItem="2JW-bi-JxO" secondAttribute="centerX" constant="-5" id="BvR-Kd-sSe"/>
+                                    <constraint firstItem="1SA-LB-vSm" firstAttribute="centerY" secondItem="2JW-bi-JxO" secondAttribute="centerY" id="TwX-NB-dy7"/>
+                                    <constraint firstAttribute="height" constant="120" id="bq2-1u-XD9"/>
+                                    <constraint firstAttribute="trailing" secondItem="Ic1-Nv-4v0" secondAttribute="trailing" constant="10" id="p1y-UR-xEi"/>
+                                    <constraint firstItem="Ic1-Nv-4v0" firstAttribute="centerY" secondItem="2JW-bi-JxO" secondAttribute="centerY" id="r8h-im-1ik"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PcD-Ty-YNW" userLabel="SignupView">
+                                <rect key="frame" x="0.0" y="187" width="375" height="349"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="0uh-ES-GCT">
+                                        <rect key="frame" x="30" y="35" width="315" height="289"/>
+                                        <subviews>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Email" placeholder="Email" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="VQN-7w-n09" customClass="CustomTextField" customModule="LoginSignupUI" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="315" height="31"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="Comfortaa" family="Comfortaa" pointSize="30"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="emailAddress" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Username" placeholder="Username" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Q88-Oj-lRA" customClass="CustomTextField" customModule="LoginSignupUI" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="61" width="315" height="31"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="Comfortaa" family="Comfortaa" pointSize="30"/>
+                                                <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Password" placeholder="Password" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="9uL-5v-Gxu" customClass="CustomTextField" customModule="LoginSignupUI" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="122" width="315" height="31"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="Comfortaa" family="Comfortaa" pointSize="30"/>
+                                                <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES" secureTextEntry="YES"/>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ia0-Gl-rab" userLabel="Sign up">
+                                                <rect key="frame" x="90" y="183" width="135" height="43"/>
+                                                <color key="backgroundColor" red="0.59215686270000001" green="0.40784313729999999" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="135" id="0WG-Wf-lTy"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Comfortaa" family="Comfortaa" pointSize="30"/>
+                                                <state key="normal" title="Sign up">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="signup:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cGV-To-mj1"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4yc-6Z-k3w">
+                                                <rect key="frame" x="70" y="256" width="175" height="33"/>
+                                                <fontDescription key="fontDescription" name="Comfortaa" family="Comfortaa" pointSize="20"/>
+                                                <state key="normal" title="Have an account?">
+                                                    <color key="titleColor" red="0.59215686270000001" green="0.40784313729999999" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="switchToLoginPanel:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JII-zk-dOT"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="VQN-7w-n09" firstAttribute="leading" secondItem="0uh-ES-GCT" secondAttribute="leading" id="D5a-cl-zNW"/>
+                                            <constraint firstItem="Q88-Oj-lRA" firstAttribute="leading" secondItem="0uh-ES-GCT" secondAttribute="leading" id="mck-cX-ccH"/>
+                                            <constraint firstAttribute="trailing" secondItem="9uL-5v-Gxu" secondAttribute="trailing" id="nKI-kr-51N"/>
+                                            <constraint firstItem="9uL-5v-Gxu" firstAttribute="leading" secondItem="0uh-ES-GCT" secondAttribute="leading" id="rQh-bL-AJR"/>
+                                            <constraint firstAttribute="trailing" secondItem="Q88-Oj-lRA" secondAttribute="trailing" id="uGk-GG-diT"/>
+                                            <constraint firstAttribute="trailing" secondItem="VQN-7w-n09" secondAttribute="trailing" id="uoR-tu-Kcv"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="0uh-ES-GCT" secondAttribute="bottom" constant="25" id="4E4-YK-nQ9"/>
+                                    <constraint firstItem="0uh-ES-GCT" firstAttribute="centerX" secondItem="PcD-Ty-YNW" secondAttribute="centerX" id="6de-jn-E5B"/>
+                                    <constraint firstItem="0uh-ES-GCT" firstAttribute="top" secondItem="PcD-Ty-YNW" secondAttribute="top" constant="35" id="pCq-LU-kPo"/>
+                                    <constraint firstItem="0uh-ES-GCT" firstAttribute="leading" secondItem="PcD-Ty-YNW" secondAttribute="leading" constant="30" id="zL8-WU-dH5"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ML7-0D-65V" userLabel="LoginView">
+                                <rect key="frame" x="0.0" y="189.5" width="375" height="288"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="m15-Cc-bUS">
+                                        <rect key="frame" x="30" y="35" width="315" height="228"/>
+                                        <subviews>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Username" placeholder="Username" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="u80-lk-xZe" customClass="CustomTextField" customModule="LoginSignupUI" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="315" height="31"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="Comfortaa" family="Comfortaa" pointSize="30"/>
+                                                <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Password" placeholder="Password" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="R7l-nI-Bwa" customClass="CustomTextField" customModule="LoginSignupUI" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="61" width="315" height="31"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="Comfortaa" family="Comfortaa" pointSize="30"/>
+                                                <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES" secureTextEntry="YES"/>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wmd-74-KZm" userLabel="Log in">
+                                                <rect key="frame" x="98.5" y="122" width="118" height="43"/>
+                                                <color key="backgroundColor" red="0.59215686270000001" green="0.40784313729999999" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="118" id="rpT-nC-Kug"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Comfortaa" family="Comfortaa" pointSize="30"/>
+                                                <state key="normal" title="Log in">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="login:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AKZ-vN-YBa"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UWD-Gn-JrR">
+                                                <rect key="frame" x="58.5" y="195" width="198" height="33"/>
+                                                <fontDescription key="fontDescription" name="Comfortaa" family="Comfortaa" pointSize="20"/>
+                                                <state key="normal" title="Don't have account?">
+                                                    <color key="titleColor" red="0.59215686270000001" green="0.40784313729999999" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="switchToSignupPanel:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gUN-hw-vDo"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="u80-lk-xZe" firstAttribute="leading" secondItem="m15-Cc-bUS" secondAttribute="leading" id="04H-Xl-bN6"/>
+                                            <constraint firstAttribute="trailing" secondItem="R7l-nI-Bwa" secondAttribute="trailing" id="5Yg-Wp-6Gh"/>
+                                            <constraint firstItem="R7l-nI-Bwa" firstAttribute="leading" secondItem="m15-Cc-bUS" secondAttribute="leading" id="iTW-gV-pqi"/>
+                                            <constraint firstAttribute="trailing" secondItem="u80-lk-xZe" secondAttribute="trailing" id="y3a-Wa-V03"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="m15-Cc-bUS" secondAttribute="bottom" constant="25" id="dgG-BS-uIW"/>
+                                    <constraint firstItem="m15-Cc-bUS" firstAttribute="top" secondItem="ML7-0D-65V" secondAttribute="top" constant="35" id="gvt-kX-BqR"/>
+                                    <constraint firstItem="m15-Cc-bUS" firstAttribute="leading" secondItem="ML7-0D-65V" secondAttribute="leading" constant="30" id="hjK-ST-nmn"/>
+                                    <constraint firstItem="m15-Cc-bUS" firstAttribute="centerX" secondItem="ML7-0D-65V" secondAttribute="centerX" id="oDP-jp-ZJo"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Huhulo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="zyX-o4-ZrT">
+                                <rect key="frame" x="58" y="234" width="259" height="100"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="80"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="2JW-bi-JxO" secondAttribute="trailing" id="38n-N5-RsK"/>
+                            <constraint firstItem="zyX-o4-ZrT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="52e-se-3vg"/>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="zyX-o4-ZrT" secondAttribute="trailing" constant="41.5" id="HRE-WS-y4o"/>
+                            <constraint firstItem="ML7-0D-65V" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="IVw-5q-np5"/>
+                            <constraint firstItem="PcD-Ty-YNW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="KzU-8e-hZt"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="2JW-bi-JxO" secondAttribute="bottom" id="MON-F3-6oI"/>
+                            <constraint firstAttribute="trailing" secondItem="ML7-0D-65V" secondAttribute="trailing" id="Xgp-ih-U1P"/>
+                            <constraint firstItem="zyX-o4-ZrT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-50" id="Ymd-LD-w7N"/>
+                            <constraint firstAttribute="trailing" secondItem="PcD-Ty-YNW" secondAttribute="trailing" id="cyA-fD-Q1w"/>
+                            <constraint firstItem="PcD-Ty-YNW" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="28" id="nCZ-iQ-o0R"/>
+                            <constraint firstItem="zyX-o4-ZrT" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="42" id="ucQ-m3-uKY"/>
+                            <constraint firstItem="ML7-0D-65V" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="wDt-W4-Wku"/>
+                            <constraint firstItem="2JW-bi-JxO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="zHv-n1-0dz"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="insideLoginButton" destination="Wmd-74-KZm" id="FND-Vo-YaR"/>
+                        <outlet property="insideSignupButton" destination="ia0-Gl-rab" id="JKq-Pi-zIg"/>
+                        <outlet property="loginOrSignupView" destination="2JW-bi-JxO" id="Vgk-Nu-Meq"/>
+                        <outlet property="loginToSignupPanelButton" destination="UWD-Gn-JrR" id="8eH-KP-TGi"/>
+                        <outlet property="loginView" destination="ML7-0D-65V" id="XuN-NX-f4Q"/>
+                        <outlet property="outsideLoginButton" destination="AdJ-cv-qh6" id="Zrk-oA-Zac"/>
+                        <outlet property="outsideSignupButton" destination="Ic1-Nv-4v0" id="yEF-7j-RVW"/>
+                        <outlet property="signupToLoginPanelButton" destination="4yc-6Z-k3w" id="hIh-OZ-a6Q"/>
+                        <outlet property="signupView" destination="PcD-Ty-YNW" id="uHR-vc-DmS"/>
+                        <outlet property="titleLabel" destination="zyX-o4-ZrT" id="y3o-bX-BtE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="180" y="123.68815592203899"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg" width="1080" height="1920"/>
+    </resources>
+</document>
